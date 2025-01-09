@@ -1,6 +1,8 @@
 # Autism
 Code for "Neuroanatomical, genomic, and functional associations of olfactory abnormalities in autism spectrum disorders".
+
 Part 1: sMRI_git: Using self-defined brain atlas (e.g. volume-based AAL) to extract structual magnetic resonance imaging metrics from surface-based freesurfer.
+
 1. Environment variables that need to be set after installing freesurfer: 
 Add the following two lines to the~/. bashrc file:
 export FREESURFER_HOME=/histor/sun/linlin/free surfer ## Changing to your freesurfer file path
