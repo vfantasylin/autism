@@ -1,5 +1,5 @@
 # Autism
-Code for "Neuroanatomical, genomic, and functional associations of olfactory abnormalities in autism spectrum disorders".
+Code for "🤩".
 
 Part 1: sMRI_git: Using self-defined brain atlas (e.g. volume-based AAL) to extract structual magnetic resonance imaging metrics from surface-based freesurfer.
 
