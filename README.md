@@ -5,11 +5,11 @@ Part 1: sMRI_git: Using self-defined brain atlas (e.g. volume-based AAL) to extr
 
 1. Environment variables that need to be set after installing freesurfer: 
 Add the following two lines to the~/. bashrc file:
-export FREESURFER_HOME=/histor/sun/linlin/free surfer ## Changing to your freesurfer file path
-source $FREESURFER_HOME/SetUpFreeSurfer.sh ## configure freesurfer environment 
+export FREESURFER_HOME=/histor/sun/linlin/free surfer ## Change to your freesurfer file path
+source $FREESURFER_HOME/SetUpFreeSurfer.sh ## Configure freesurfer environment 
 then source ~/.bashrc
 
-2. Analysis pipeline: 
+3. Analysis pipeline: 
 (1) Download subjects file from ABIDE: S0_sMRI_1_data_download_git.py
 Input files: Phenotypic_V1_0b_preprocessed1.csv, each_sub_necessary_files.txt
 Output files: FS_successful_download.json
@@ -30,7 +30,7 @@ Output files: FS_git_surface_area.csv, FS_git_gray_matter_volume.csv
 Input files: FS_git_surface_area.csv, FS_git_gray_matter_volume.csv, _*h_1.txt
 Output files: FS_git_surface_area_df.csv, FS_git_gray_matter_volume_df.csv
 
-3. Files note: 
+4. Files note: 
 (1) AAL brain atlas: AAL116_1mm.nii
 (2) The necessary files that each participant needs to download: each_sub_necessary_files.txt
 (3) Subject Information File: Phenotypic_V1_0b_preprocessed1.csv
